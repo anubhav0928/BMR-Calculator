@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BMR</title>
+    
+    <link rel="stylesheet" href="./Assignment1Styles.css"  type="text/css" >
+</head>
+<body>
+    <script src="./Assignment1.js" type="text/javascript"></script>
+
+    <div class="tab">
+      <a href="./tab2.html" >
+        <button  class="bttn" id="btn7" onclick="openCity(event, 'Paris')" ><h2>Imperial Calculator</h2></button>
+    </a>
+      </div>
+      
+    <!-- Tab content -->
+    <div id="London" >
+
+
+
+
+      <h1 style="margin-left:350px">Metrical BMR Calculator</h1>
+
+        <!-- Metric BMI Calculator - Metric Units BEGIN -->
+    
+          <form id='submit-form2' name="myForm2" target="_self" onsubmit="return(BMI2(),false);  ">
+            <div id="form" style="margin-left: 18%;">
+                <label for="Gender" >Gender</label>
+               
+                <select id="Gender" name="Gender"  style=" height:auto;font-size: larger;"  >
+                    <option value="">Select</option>
+                    <option value="Male"><h1>Male</h1></option>
+                    <option value="Female"><h1>Female</h1></option>
+                  </select>
+                <p class="text"><h3>Age</h3></p>
+                <input type="text" id="age" name="age"  style="height: 20px;"  >
+               <h3> Your Hieght</h3>
+                <p class="text">
+                <input type="text" id="feets"   name="feets" style="height: 20px;margin-left: 30px; " >&nbsp;cm</p>
+                
+            
+                <h3> Your Wieght?</h3>
+                <p class="text">
+                 <input type="text"id="iPounds" name="iPounds"  style="height:20px;margin-left: 50px; ;"  >&nbsp;Kg</p>
+                
+<br>
+                  
+                    <div id="activitylevel">
+                        <label>Please choose your activity level: </label><br>
+                            <input type="radio" name="activity1" id="Sedentary" value="1.875"  >Sedentary<br>
+                            <input type="radio" name="activity1" id="Light" value="1.75" >Light<br>
+                            <input type="radio" name="activity1" id="Moderate" value="1.55" >Moderate<br>
+                            <input type="radio" name="activity1" id="Active" value="1.25" >Active<br>
+                        
+                   
+    </div>
+               
+             
+            
+                    <div> 
+                        <br> <p id="result"></p>
+                        <p id="result2"></p></div>
+                <button type="submit" name="sub" id="btn3" onclick="validateForm()" value="Submit" style="font-size: x-large;;margin: left 10px;  " >Submit </button> 
+                <button type="reset"id="btn4"   style="font-size: x-large;margin-right: 10px;" >Reset</button>
+        
+                </div>
+                </form></div>
+               
+         
+                <footer>
+                    <h6>&copy;&nbsp;Copyrights Anubhav Sood- Comp213-Fall 2020
+                   </footer>
+        
+         
+           </div> 
+       
+</div>
+</div>
+</body>
+</html>
+
+   <!----------------------------------------------------------------//''''''''''------------------------------>
+         
+   

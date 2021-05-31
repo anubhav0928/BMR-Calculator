@@ -1,0 +1,84 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>BMR</title>
+   
+    <link rel="stylesheet" href="./Assignment1Styles.css"  type="text/css" >
+</head>
+<body>
+    <script src="./Assignment1.js" type="text/javascript"></script>
+
+    <div class="tab">
+       <a href="./Assignment1.html">
+        <button class="tablinks" onclick="openCity(event, 'London')"><h2> Metrical Calculator</h2></button>
+      </a></div>
+<html>
+<body>   
+   <div id="Paris" >
+           <h1>Imperial BMR Calculator</h1>
+
+
+            <!-- Metric BMI Calculator - Metric Units BEGIN -->
+                           <div id= "form">
+                           <form id="submit-form" name="myForm1" target="_self" onsubmit="return(validateForm2(),BMI(),false); ">
+
+                 
+                                         <label for= "Gender1">Gender</label>
+               
+                              <select id="Gender1" name="Gender1" style=" height:auto;font-size: larger;">
+                             <option value="">Select</option>
+                              <option value="Male" ><h1>Male</h1></option>
+                              <option value="Female"><h1>Female</h1></option>
+                              </select>
+                             <p class="text"><h3>Age</h3></p>
+                                <input type="text" id="age1" >
+                                <h3> Your Hieght</h3>
+                              <p class="text" style="float: left;margin-left: 215px;">
+                                <input type="text" id="feets1"  style="height: 20px;" >&nbsp;Feets</p>
+                              <p class="text" style="float: right;margin-right: 220px; height: 20px;">
+                                   <input type="text" id="inches1" style="height: 20px; "  >&nbsp;Inches</p>
+                                     <br><br><br>
+                             <h3> Your Wieght?</h3>
+                             <p class="text" style="float: left;margin-left: 215px;">
+                                  <input type="text"id="iPounds1" oninput="weightConverter(this.value)"  style="height: 20px;" oninput="weightConverter(this.value)"  style="height: 20px;">&nbsp;Pounds</p>
+                                        <p class="text" style="float: right;margin-right: 220px; height: 20px;">
+                            <input id="outputStones1"   type="text" value="">&nbsp;Stones</p>
+
+                                  <br>
+                              <br>
+                            <br>
+                               <br>
+                                 <br>
+                            <div id="activitylevel">
+                                 <label>Please choose your activity level: <br>
+                            <input type="radio" name="activity" id="Sedentary1" value="1.2">Sedentary<br>
+                            <input type="radio" name="activity" id="Light1" value="1.375">Light<br>
+                            <input type="radio" name="activity" id="Moderate1" value="1.55" >Moderate<br>
+                            <input type="radio" name="activity" id="Active1" value="1.725" >Active<br>
+                            </label>
+                   
+                                           </div>
+               
+              
+                          <div>
+                           <div> <br> <p id="result11"></p>
+                          <p id="result12"></p></div>
+                          <button type="submit" id="btn1" onclick="BMI()"  style="font-size: x-large;;margin: left 10px; ">Calculate</button>  
+                           <button type="reset"id="btn2"   style="font-size: x-large;margin-right: 10px;">Reset</button>
+            
+       
+             </div>
+            </form></div></div>
+                            <footer>
+                             <h6>&copy;&nbsp;Copyrights Anubhav Sood- Comp213-Fall 2020
+                               </footer>
+                        
+                      
+                   </div>
+
+</body>
+</html>
